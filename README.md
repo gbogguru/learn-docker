@@ -20,9 +20,12 @@ curl -L get.docker.com | sudo bash
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/8fb42939-de5d-4692-87a2-6b4f4efa7d77)
 
 After installation of docker, we need to start and enable with the admin rights.
+
 Systemctl start docker
+
 Systemctl enable docker
 Docker ps
+![image](https://github.com/gbogguru/learn-docker/assets/42975193/c73eecf0-547c-4eab-a503-fef8356faa61)
 
 
 Docker Binary > Docker Daemon > ContainerD
@@ -48,6 +51,9 @@ run is a command to lunch a container
 
 docker run -d nginx 
 docker run -d nginx:stable
+
+![image](https://github.com/gbogguru/learn-docker/assets/42975193/cd14e03f-1b29-4747-8bc5-69fda5b6e279)
+
 
 docker ps
 docker images
