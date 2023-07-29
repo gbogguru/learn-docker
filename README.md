@@ -78,3 +78,24 @@ GO inside a container with exec command
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/b6f99530-6a79-48cc-ae92-26d400e14086)
 
 
+
+Create a Git Repository
+https://github.com/gbogguru/learn-docker.git
+
+Create a Dockerfile 
+FROM    nginx
+
+Run:
+docker build .
+
+![image](https://github.com/gbogguru/learn-docker/assets/42975193/052a79c8-c1a6-4c0c-9ff9-57f14fe1f26d)
+
+docker run -d 477b8e063cf2
+docker ps
+
+![image](https://github.com/gbogguru/learn-docker/assets/42975193/9b8a47bd-853b-4d8d-8349-ea9afd55cc37)
+
+
+ docker exec -it 54e7810dff03 bash
+
+ 
