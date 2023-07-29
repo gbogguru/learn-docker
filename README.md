@@ -98,4 +98,10 @@ docker ps
 
  docker exec -it 54e7810dff03 bash
 
+
+-P publish and -p change a port
+
+![image](https://github.com/gbogguru/learn-docker/assets/42975193/b165466e-25bd-4500-80e4-c6dd3438e3c6)
+
+
  
