@@ -104,4 +104,16 @@ docker ps
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/b165466e-25bd-4500-80e4-c6dd3438e3c6)
 
 
- 
+ ![image](https://github.com/gbogguru/learn-docker/assets/42975193/16583459-a728-4475-adc3-3d9e76067373)
+
+ docker run -it -d -p 80:80 <Imageid>
+
+ ![image](https://github.com/gbogguru/learn-docker/assets/42975193/0eb27976-26a6-45ba-83cd-87042422aa5c)
+
+Login docker with user id and password:
+
+![image](https://github.com/gbogguru/learn-docker/assets/42975193/70886fa7-63c8-4ba5-9699-8b4ca9d6e2d8)
+
+
+
+
