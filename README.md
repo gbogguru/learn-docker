@@ -68,6 +68,12 @@ docker images
 
 We can use Dockerfile to make images like as JenkinsFile
 
+To run docker image:
+docker run -d nginx
+
+To go inside:
+docker exec -it bed3352ba8cb bash
+
 GO inside a container with exec command
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/b6f99530-6a79-48cc-ae92-26d400e14086)
 
