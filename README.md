@@ -24,6 +24,7 @@ After installation of docker, we need to start and enable with the admin rights.
 Systemctl start docker
 
 Systemctl enable docker
+
 Docker ps
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/c73eecf0-547c-4eab-a503-fef8356faa61)
 
@@ -35,27 +36,33 @@ sudo usermod -a -G docker centos
 
 id
 
+
 - public images will be available at hub.docker.com 
 
 sudo su -
 
 docker pull nginx
+
 docker pull nginx:stable
+
 docker images
 
 docker rmi nginx:stable
+
 Untagged: nginx:stable
 Untagged: nginx@sha256:57e42e00530faa65e8acf98c3cf7bf6794093a9841c8a676b6d2fd0a9ba7262f
 
 run is a command to lunch a container
 
 docker run -d nginx 
+
 docker run -d nginx:stable
 
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/cd14e03f-1b29-4747-8bc5-69fda5b6e279)
 
 
 docker ps
+
 docker images
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/b59a07b1-7d72-4d6a-bdb1-0d2edf22233a)
 
