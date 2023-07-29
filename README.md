@@ -1,6 +1,9 @@
 # learn-docker
 Docker Learning
 
+Please read https://github.com/gbogguru/frontend/blob/main/README.md 
+
+
 Docker:
 C:\Gajendra\2017 Gajendra Preparation\Interview Questions\MicroServices\DevOps\Training\DevOps - Containers Docker.docx
 
